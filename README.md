@@ -2,6 +2,28 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+### Prerequisites
+
+1. **Groq API Key**: You'll need a Groq API key to enable the chat functionality.
+   - Sign up at [https://console.groq.com](https://console.groq.com)
+   - Navigate to [API Keys](https://console.groq.com/keys)
+   - Create a new API key
+   - Copy the key for the next step
+
+### Environment Setup
+
+1. Create a `.env.local` file in the root directory:
+   ```bash
+   touch .env.local
+   ```
+
+2. Add your Groq API key:
+   ```
+   GROQ_API_KEY=your_groq_api_key_here
+   ```
+
+### Running the Development Server
+
 First, run the development server:
 
 ```bash
